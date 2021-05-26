@@ -8,8 +8,8 @@ body {
 .container {
     position: relative;
     background: white;
-    height: 42rem;
-    width: 80%;
+    height: 5rem;
+    width: 75%;
     margin-top: 2rem;
     margin-left: 7.5rem;
     border-radius: 50px;
@@ -213,4 +213,51 @@ h2 {
     font-weight: 600;
     font-size: medium;
 }
+.tab-menu {
+    position: absolute;
+    height: 11rem;
+    width: 27rem;
+    background-color: rgb(241, 210, 147);
+    border-radius: 14px;
+    margin-top: 13rem;
+    margin-left: 47rem;
+}
 
+#display {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 22px;
+    margin-left: 1.1rem;
+}
+
+#name {
+    font-size: medium;
+    position: absolute;
+    margin-left: 4.5rem;
+    margin-top: 1.6rem;
+}
+
+.blade {
+    font-size: large;
+    position: absolute;
+    margin-top: 4.1rem;
+    margin-left: 17px;
+}
+
+#para {
+    color:rgb(85, 83, 83);
+    margin-top: 5.7rem;
+    font-size: 14px;
+    position: absolute;
+    margin-left: 17px;
+}
+
+.rating {
+    position: absolute;
+    border: 1px solid rgb(138, 137, 137);
+    border-radius: 6px;
+    margin-top: 1.5rem;
+    margin-left: 23rem;
+    padding: 4px;
+}
