@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="clone.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid" id="header">
+                <a class="navbar-brand" href="#"><b>S</b>hop.</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active link-color" aria-current="page" href="#">Electronics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-color" href="#">Fashion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-color" href="#">Tools</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-color" href="#">Books</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle link-color" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" href="#" area-expanded="false" aria-disabled="true">More</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" id="search" placeholder="Search"
+                            aria-label="Search">
+                        <div class="cart">
+                            <i class="fa fa-shopping-cart" aria-hidden="true">
+                                <p id="cart-number">0</p>
+                            </i>
+                        </div>
+                        <img src="img16.jpg">
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <ul>
+            <li class="searchThing">Home ></li>
+            <li class="searchThing">Kitchen ></li>
+            <li class="searchThing">Tools</li>
+        </ul>
+        <img src="Knife1.jpg" id="knife-active">
+        <img src="Knife7.jpg" class="knife">
+        <img src="Knife1.jpg" id="image-outline" class="knife">
+        <img src="Knife8.jpg" class="knife">
+        <div class="description">
+            <h2>Swiss Made Vegetable<br> Cutting Knife</h2>
+            <p id="company-name">BY <span id="company">KC COMPANY</span></p>
+        </div>
+        <div class="dollar"><span id="sign">$</span>
+            <span id="number">25</span><span id="discount">Save 12%</span>
+            <p id="tax">Inclusive of all Taxes.</p>
+            <p id="quality">Capable of mincing, cutting and peeling<br>Knifes are for both professional purpose.</p>
+        </div>
+        <div class="quantity">QTY <br><span id="number2" id="navbarDropdown" data-bs-toggle="dropdown"
+                class="dropdown-toggle">2</span></div>
+        <button type="button" class="btn" id="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Add to
+            Cart</button>
+    </div>
+</body>
+
+</html>
